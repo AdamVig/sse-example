@@ -1,0 +1,32 @@
+{
+  "name": "sse-example",
+  "version": "1.0.0",
+  "description": "Server-sent events (SSE) example application.",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamvig/sse-example.git"
+  },
+  "author": "Adam Vigneaux <adam@adamvig.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamvig/sse-example/issues"
+  },
+  "homepage": "https://github.com/adamvig/sse-example#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
